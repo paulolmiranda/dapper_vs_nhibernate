@@ -14,7 +14,7 @@ namespace Application.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        private readonly string _connectionString = "User ID=cgtvalpha;Password=cogtive;Server=localhost;Port=5432;Database=cogtive;";
+        private readonly string _connectionString = "User ID=root;Password=123;Server=localhost;Port=5432;Database=db;";
 
         private ISessionFactory _sessionFactory;
 
